@@ -1,0 +1,17 @@
+.{
+    .name = .datelist,
+    .version = "0.0.1",
+    .fingerprint = 0xb8afa697bcdb50fd,
+    .minimum_zig_version = "0.16.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "tests",
+        "bench",
+        "examples",
+        "LICENSE",
+        "README.md",
+        "CHANGELOG.md",
+    },
+}
