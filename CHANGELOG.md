@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-11 self-serve task
+
+- Add a runnable synthetic task, clean-source packager and gated preview workflow.
+- Wire the earnings-window example into the test step and correct its expected count: only three of five supplied offsets fit the 32-day window.
+- Accept the standard -Doptimize option; default builds use Debug and packaged demos use ReleaseSafe.
+
 ## 0.0.1 — 2026-05-28
 
 Substrate primitives + SIMD cohort scan. 24/24 tests pass on Zig 0.16.

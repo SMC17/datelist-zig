@@ -24,6 +24,6 @@ test "earnings window walk-forward density" {
     for ([_]u8{ 90, 60, 30, 7, 1 }) |d| {
         if (d < Datelist32.window_days) try recordUpdate(&act, d);
     }
-    try std.testing.expectEqual(@as(u8, 5), act.activeDayCount());
-    try std.testing.expect(updateDensity(act, 32) >= 5);
+    try std.testing.expectEqual(@as(u8, 3), act.activeDayCount());
+    try std.testing.expect(updateDensity(act, 32) == 3);
 }
